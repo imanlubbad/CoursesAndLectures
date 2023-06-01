@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/root"
+    tools:context=".feature.courses.MyCoursesFragment">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="@dimen/recycle_padding" />
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress_circular"
+        android:layout_centerInParent="true"
+        android:progressTint="@color/colorAccent" />
+    </RelativeLayout>
+    <LinearLayout
+        android:id="@+id/ll_no_result"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_no_result"
+            style="@style/NormalTextViewStyle"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:fontFamily="@font/sf_ui_display_regular"
+            android:singleLine="false"
+            android:textColor="@color/user_tag_color"
+            android:text="@string/no_data_found" />
+    </LinearLayout>
+</FrameLayout>

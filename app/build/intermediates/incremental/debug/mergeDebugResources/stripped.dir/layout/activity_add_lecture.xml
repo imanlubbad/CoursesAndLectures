@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        style="@style/toolbar"
+        app:contentInsetEnd="0dp"
+        app:contentInsetStart="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical">
+
+            <ImageButton
+                android:layout_width="?actionBarSize"
+                android:layout_height="?actionBarSize"
+                android:background="@null"
+                android:id="@+id/ibtn_back"
+                android:src="@drawable/ic_baseline_arrow_back_24" />
+
+            <TextView
+                android:id="@+id/tvTitle"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginEnd="?actionBarSize"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="@string/add_lecture"
+                android:textColor="@color/white"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/small_horizontal_margin"
+            android:layout_marginEnd="@dimen/small_horizontal_margin"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/ed_name"
+                style="@style/EditText"
+                android:layout_marginTop="25dp"
+                android:hint="@string/lecture_title" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:layout_marginTop="@dimen/small_horizontal_margin"
+                android:background="@drawable/sign_in"
+                android:baselineAligned="false">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/llChooseVideo">
+
+                    <ImageView
+                        android:id="@+id/imgPhotoOrVideo"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+                    <ImageView
+                        android:id="@+id/img_video_thumb"
+                        android:visibility="gone"
+                        android:layout_width="@dimen/iconSmallHeight"
+                        android:layout_gravity="center"
+                        android:layout_height="@dimen/iconSmallHeight"
+                        android:src="@drawable/ic_play_video" />
+
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_add_image"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:srcCompat="@drawable/ic_videocam_black_24dp" />
+
+                    <TextView
+                        style="@style/TextViewStyle"
+                        android:padding="0dp"
+                        android:text="@string/attach_video" />
+
+                </LinearLayout>
+            </FrameLayout>
+
+
+            <EditText
+                android:id="@+id/ed_details"
+                style="@style/EditText"
+                android:visibility="gone"
+                android:layout_marginTop="15dp"
+                android:gravity="top|start"
+                android:hint="@string/description"
+                android:minLines="5"
+                android:singleLine="false" />
+
+
+            <Button
+                android:id="@+id/btn_add"
+                style="@style/ButtonStyle"
+                android:layout_marginTop="25dp"
+                android:layout_marginBottom="25dp"
+                android:background="@drawable/background_button_a"
+                android:text="@string/add" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

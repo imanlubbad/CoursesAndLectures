@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:id="@+id/pagerFragment_full"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:gravity="center_vertical"
+        android:layout_marginTop="@dimen/margin20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageButton
+            android:id="@+id/ibtn_back"
+            android:layout_width="?actionBarSize"
+            android:layout_height="?actionBarSize"
+            android:layout_marginStart="@dimen/margin20"
+            android:background="@null"
+            android:src="@drawable/ic_baseline_arrow_back_24"
+            app:tint="@color/colorPrimary" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:textColor="@color/white"
+            android:id="@+id/tv_title"
+            android:singleLine="false"
+            android:layout_marginEnd="?actionBarSize"
+            android:layout_height="wrap_content"
+            style="@style/TitleTextViewStyle" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <VideoView
+            android:id="@+id/videoView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+    </FrameLayout>
+
+    <ImageView
+        android:visibility="gone"
+        android:id="@+id/img_play"
+        android:layout_width="@dimen/img_user_w_h_small"
+        android:layout_height="@dimen/img_user_w_h_small"
+        android:layout_gravity="center"
+        android:scaleType="centerCrop"
+        app:srcCompat="@drawable/ic_play_video" />
+
+    <com.google.android.material.progressindicator.CircularProgressIndicator
+        android:id="@+id/progress"
+        android:layout_width="@dimen/iconSmallHeight"
+        android:layout_height="@dimen/iconSmallHeight"
+        android:layout_gravity="center"
+        app:trackColor="@color/colorAccent"
+        app:indicatorColor="@color/colorAccent" />
+</FrameLayout>

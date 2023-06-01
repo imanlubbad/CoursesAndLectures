@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_config_prefDialogWidth">440dp</dimen>
+    <item name="abc_dialog_fixed_height_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_height_minor" type="dimen">90%</item>
+    <item name="abc_dialog_fixed_width_major" type="dimen">60%</item>
+    <item name="abc_dialog_fixed_width_minor" type="dimen">90%</item>
+    <item name="abc_dialog_min_width_major" type="dimen">55%</item>
+    <item name="abc_dialog_min_width_minor" type="dimen">80%</item>
+    <dimen name="bg_header_height">185dp</dimen>
+    <dimen name="bg_header_height_profile">135dp</dimen>
+    <dimen name="circle_h">28dp</dimen>
+    <dimen name="icomoon_font">30dp</dimen>
+    <dimen name="img_user_w_h">65dp</dimen>
+    <dimen name="img_user_w_h_large">85dp</dimen>
+    <dimen name="img_user_w_h_small">40dp</dimen>
+    <dimen name="logo_w_h">145dp</dimen>
+    <dimen name="map_h">210dp</dimen>
+    <dimen name="marker_w_h">55dp</dimen>
+    <dimen name="profile_img_margin">65dp</dimen>
+    <dimen name="profile_img_w_h">125dp</dimen>
+    <dimen name="service_img_h">275dp</dimen>
+    <dimen name="service_w_h">65dp</dimen>
+    <dimen name="social_w_h_large">65dp</dimen>
+    <dimen name="social_w_h_medium">55dp</dimen>
+    <dimen name="social_w_h_small">30dp</dimen>
+    <style name="Base.Theme.AppCompat.DialogWhenLarge" parent="Base.Theme.AppCompat.Dialog.FixedSize"/>
+    <style name="Base.Theme.AppCompat.Light.DialogWhenLarge" parent="Base.Theme.AppCompat.Light.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Dialog.FixedSize"/>
+    <style name="Base.Theme.MaterialComponents.Light.DialogWhenLarge" parent="Base.Theme.MaterialComponents.Light.Dialog.FixedSize"/>
+    <style name="Theme.Material3.Dark.DialogWhenLarge" parent="Base.Theme.Material3.Dark.Dialog">
+    <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>
+    <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>
+    <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>
+    <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>
+  </style>
+    <style name="Theme.Material3.Light.DialogWhenLarge" parent="Base.Theme.Material3.Light.Dialog">
+    <item name="windowFixedWidthMajor">@dimen/abc_dialog_fixed_width_major</item>
+    <item name="windowFixedWidthMinor">@dimen/abc_dialog_fixed_width_minor</item>
+    <item name="windowFixedHeightMajor">@dimen/abc_dialog_fixed_height_major</item>
+    <item name="windowFixedHeightMinor">@dimen/abc_dialog_fixed_height_minor</item>
+  </style>
+</resources>

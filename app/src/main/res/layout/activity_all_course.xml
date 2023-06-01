@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/root">
+
+    <androidx.appcompat.widget.Toolbar
+        app:contentInsetStart="0dp"
+        android:id="@+id/toolbar"
+        app:contentInsetEnd="0dp"
+        style="@style/toolbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="@string/course"
+                android:textColor="@color/white"
+                android:layout_marginEnd="?actionBarSize"
+                android:textSize="@dimen/large_text_size"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+    <EditText
+        style="@style/EditText"
+        android:drawableStart="@drawable/ic_search"
+        android:id="@+id/ed_search"
+        android:imeOptions="actionSearch"
+        android:visibility="visible"
+        android:maxLines="1"
+        android:hint="@string/search"
+        android:layout_marginTop="@dimen/drawable_padding"
+        android:layout_marginEnd="@dimen/small_horizontal_margin"
+        android:layout_marginStart="@dimen/small_horizontal_margin" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:layoutManager="androidx.recyclerview.widget.GridLayoutManager"
+            android:padding="@dimen/recycle_padding"
+            tools:listitem="@layout/item_course"
+            app:spanCount="2"
+            android:id="@+id/rv_list" />
+
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/progress_circular"
+            android:layout_centerInParent="true"
+            android:progressTint="@color/colorAccent" />
+
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/fabAdd"
+            android:layout_width="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/ic_baseline_add_24"
+            android:backgroundTint="@color/colorAccent"
+            android:layout_margin="16dp" />
+    </RelativeLayout>
+
+
+</LinearLayout>

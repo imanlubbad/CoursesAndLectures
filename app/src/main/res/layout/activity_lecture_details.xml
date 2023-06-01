@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    android:orientation="vertical">
+
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+                <ImageView
+                    android:id="@+id/img_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="300dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cloud"
+                    android:tint="@color/white_opacity"
+                    tools:ignore="UseAppTint" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="24dp">
+
+                    <ImageButton
+                        android:layout_width="?actionBarSize"
+                        android:layout_height="?actionBarSize"
+                        android:id="@+id/ibtn_back"
+                        android:layout_alignParentStart="true"
+                        android:src="@drawable/ic_baseline_arrow_back_24"
+                        android:background="@null" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_more"
+                        android:layout_width="?actionBarSize"
+                        android:layout_height="?actionBarSize"
+                        android:layout_alignParentEnd="true"
+                        android:background="@null"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_baseline_more_vert_24" />
+
+                </RelativeLayout>
+
+                <ProgressBar
+                    android:layout_width="24dp"
+                    android:layout_height="24dp"
+                    android:id="@+id/progress_circular"
+                    android:layout_centerInParent="true" />
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/small_horizontal_margin"
+                android:layout_marginStart="@dimen/small_horizontal_margin">
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/extra_large_text_size"
+                    android:textStyle="bold"
+                    tools:text="Cloud Computing and its Applications" />
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:id="@+id/ll_rate"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lecturer"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/reviews"
+                        android:id="@+id/tv_lecturer_name"
+                        android:textSize="@dimen/text_size"
+                        android:textColor="@color/colorPrimary_50" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_height="wrap_content"
+                    tools:text="It is an intersection of cloud computing and mobile applications. The course aims to introduce the cloud computing with orientation to cloud application and its particularities specially mobile applications. It covers areas and topics related to cloud infrastructure, platforms (mobile ones), and software as a service (cloud native mobile applications). Nature of these applications and their deployment considerations are also covered in the course."
+                    android:textColor="@color/purple_500"
+                    android:layout_marginBottom="25dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/lectures"
+                        android:textColor="@color/teal_700" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</LinearLayout>

@@ -1,0 +1,606 @@
+[
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_border_rect_white.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/border_rect_white.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_tw_cen_mt_bold.TTF.flat",
+        "source": "com.m_learning.app-main-43:/font/tw_cen_mt_bold.TTF"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_back_white.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_back_white.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_gray_circle_shape.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/gray_circle_shape.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_img_circle_checked.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/img_circle_checked.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_custom_btn_blue.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/custom_btn_blue.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_attach.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_attach.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_play_video.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_play_video.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_more_vert_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_more_vert_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_change_password.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_change_password.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_course.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/course.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_search.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_search.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_remove_red_eye_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_remove_red_eye_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_my_courses.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_my_courses.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_cloud_download_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_cloud_download_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/xml_file_paths.xml.flat",
+        "source": "com.m_learning.app-main-43:/xml/file_paths.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_circle_green.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/circle_green.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_assignments.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_assignments.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_rar.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/rar.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/menu_activity_main_drawer.xml.flat",
+        "source": "com.m_learning.app-main-43:/menu/activity_main_drawer.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_clear_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_clear_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_bg_float_dialog.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/bg_float_dialog.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_attach_file_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_attach_file_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-mdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_action_keyboard.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_action_keyboard.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_send_msg.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_send_msg.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_notifications_off.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_notifications_off.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_add_categorie.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_add_categorie.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_discover_courses.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_discover_courses.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_camera_alt_gray_24dp.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_camera_alt_gray_24dp.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_powerpoint.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/powerpoint.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_chooes_user.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_chooes_user.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_delete_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_delete_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_list.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_list.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_login.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_login.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_red_circle.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/red_circle.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_circle.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/circle.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_custom_chat_border.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/custom_chat_border.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_add_assignment.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_add_assignment.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_base_row.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_base_row.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_background_button_a.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/background_button_a.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_notification.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_notification.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_google_docs.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/google_docs.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_chat_mine_img.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_chat_mine_img.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_phone.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_phone.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_edit_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_edit_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_green_circle_shape.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/green_circle_shape.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_add_lecture.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_add_lecture.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_image_full_screen.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_image_full_screen.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_sf_ui_display_medium.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/sf_ui_display_medium.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_messages.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_messages.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_visibility_off_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_visibility_off_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_cloud.jpg.flat",
+        "source": "com.m_learning.app-main-43:/drawable/cloud.jpg"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_border_rect_accent.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/border_rect_accent.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_img_circle_unchecked.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/img_circle_unchecked.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_no_data.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_no_data.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_gallery.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_gallery.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_videocam_black_24dp.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_videocam_black_24dp.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_load_more.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/load_more.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_circle_black.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/circle_black.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_menu_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_menu_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_student.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_student.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_gradient_rect.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/gradient_rect.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_sf_ui_display_bold.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/sf_ui_display_bold.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_chat.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_chat.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_arrow_back_ios_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_arrow_back_ios_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_calendar_today.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_calendar_today.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_sign_in.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/sign_in.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_logout_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_logout_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_email.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_email.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_circle_opacity.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/circle_opacity.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_place_holder.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/place_holder.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_dialog_loading_layout.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/dialog_loading_layout.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_product.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_product.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_profile.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_banner.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/banner.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_deletel.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_deletel.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_home_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_home_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_pdf.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/pdf.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_custom_text_view_press.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/custom_text_view_press.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_notification.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_notification.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_sf_ui_display_semibold.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/sf_ui_display_semibold.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-anydpi-v26/ic_launcher_round.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_main.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_notifications.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_notifications.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_lecture_details.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_lecture_details.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_add_course.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_add_course.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_sign_up.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_sign_up.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_lecturer_main.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_lecturer_main.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_foreground.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxhdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/menu_popup_menu.xml.flat",
+        "source": "com.m_learning.app-main-43:/menu/popup_menu.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_tw_cn_mt_regular.TTF.flat",
+        "source": "com.m_learning.app-main-43:/font/tw_cn_mt_regular.TTF"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_chat.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_chat.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_lecture.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_lecture.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-mdpi_ic_launcher_foreground.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-mdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_chat_mine.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_chat_mine.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_sf_ui_display_light.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/sf_ui_display_light.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_excel.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/excel.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_shape_circle_grey_light.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/shape_circle_grey_light.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_add_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_add_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_course_overview.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_course_overview.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_arrow_back_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_arrow_back_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_splash.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_splash.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_image.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_image.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_lecture.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_lecture.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_students.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_students.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_chat_other.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_chat_other.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_custom_btn_blue_border.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/custom_btn_blue_border.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_no_img_placeholder.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/no_img_placeholder.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_person_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_person_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_custom_float_dialog.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_custom_float_dialog.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_sf_ui_display_regular.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/sf_ui_display_regular.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_lock.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_lock.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_dialog_items.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/dialog_items.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_forget_password.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_forget_password.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_chat_other_img.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_chat_other_img.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_cloud_upload_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_cloud_upload_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_item_list_dialog.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_item_list_dialog.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_header.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/header.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_custom_chat_solid.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/custom_chat_solid.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_lectures.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_lectures.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_fragment_assignments.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/fragment_assignments.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_folder_gray_24dp.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_folder_gray_24dp.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_edit_profile.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_edit_profile.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-mdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_sticker.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_sticker.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-hdpi_ic_launcher_foreground.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-hdpi/ic_launcher_foreground.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_img_user.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/img_user.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_word.png.flat",
+        "source": "com.m_learning.app-main-43:/drawable/word.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_keyboard_arrow_down_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_keyboard_arrow_down_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_baseline_location_city_24.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_baseline_location_city_24.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_poppins_regular.ttf.flat",
+        "source": "com.m_learning.app-main-43:/font/poppins_regular.ttf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "com.m_learning.app-main-43:/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_circle_red.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/circle_red.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_course.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_course.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_course_details.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_course_details.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/font_ge_ss_light.otf.flat",
+        "source": "com.m_learning.app-main-43:/font/ge_ss_light.otf"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_activity_all_course.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/activity_all_course.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_message_list_row.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/message_list_row.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/drawable_ic_username.xml.flat",
+        "source": "com.m_learning.app-main-43:/drawable/ic_username.xml"
+    },
+    {
+        "merged": "com.m_learning.app-merged_res-41:/layout_item_dialog.xml.flat",
+        "source": "com.m_learning.app-main-43:/layout/item_dialog.xml"
+    }
+]

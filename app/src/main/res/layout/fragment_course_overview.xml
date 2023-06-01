@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:id="@+id/img_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@color/gradiant_trans2"
+                    android:scaleType="centerCrop"
+                    tools:ignore="UseAppTint" />
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:layout_width="@dimen/circle_h"
+                    android:layout_height="@dimen/circle_h"
+                    android:id="@+id/progress_circular"
+                    app:trackColor="@color/colorAccent"
+                    app:indicatorColor="@color/colorAccent"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/small_horizontal_margin"
+                android:layout_marginStart="@dimen/small_horizontal_margin">
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/textSizeLarge"
+                    android:textStyle="bold"
+                    tools:text="Cloud Computing and its Applications" />
+
+                <TextView
+                    android:id="@+id/tv_courseCode"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/dark_gray"
+                    android:textSize="@dimen/text_size"
+                    android:textStyle="bold"
+                    tools:text="df432" />
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="@dimen/padding"
+                    android:layout_height="wrap_content"
+                    tools:text="It is an intersection of cloud computing and mobile applications. The course aims to introduce the cloud computing with orientation to cloud application and its particularities specially mobile applications. It covers areas and topics related to cloud infrastructure, platforms (mobile ones), and software as a service (cloud native mobile applications). Nature of these applications and their deployment considerations are also covered in the course."
+                    android:textColor="@color/purple_500"
+                    android:layout_marginBottom="25dp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/registered_students"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/tvStudentsCount"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5"
+                        android:textColor="@color/teal_700" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/views"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/tvViews"
+                        android:layout_height="wrap_content"
+                        android:text="@string/_5"
+                        android:textColor="@color/teal_700" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/deadline"
+                        android:textColor="@color/black" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:id="@+id/tvDeadline"
+                        android:layout_height="wrap_content"
+                        android:text="5"
+                        android:textColor="@color/teal_700" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:textStyle="bold"
+                    android:id="@+id/tvCourse_doc"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:text="@string/course_documents"
+                    style="@style/TextViewStyle" />
+
+                <HorizontalScrollView
+                    android:id="@+id/hScrollView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/padding"
+                    android:layout_marginEnd="@dimen/padding"
+                    android:layout_marginBottom="@dimen/horizontal_margin"
+                    android:scrollbarSize="0dp"
+                    android:scrollbars="none"></HorizontalScrollView>
+
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

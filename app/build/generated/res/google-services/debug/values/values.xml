@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1082560790654-3ple0tm2rg3fj0ekpuk5iu7h03plt877.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1082560790654</string>
+    <string name="google_api_key" translatable="false">AIzaSyCe5aFwfM0SNDWcjflwtiGG8ptydY0KjFc</string>
+    <string name="google_app_id" translatable="false">1:1082560790654:android:f89887170c035a4593d82f</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCe5aFwfM0SNDWcjflwtiGG8ptydY0KjFc</string>
+    <string name="google_storage_bucket" translatable="false">m-learning-e8064.appspot.com</string>
+    <string name="project_id" translatable="false">m-learning-e8064</string>
+</resources>

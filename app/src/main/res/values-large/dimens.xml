@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- home screen -->
+    <dimen name="profile_img_w_h">125dp</dimen>
+    <dimen name="profile_img_margin">65dp</dimen>
+    <dimen name="bg_header_height">185dp</dimen>
+    <dimen name="bg_header_height_profile">135dp</dimen>
+    <dimen name="marker_w_h">55dp</dimen>
+    <dimen name="img_user_w_h">65dp</dimen>
+    <dimen name="img_user_w_h_small">40dp</dimen>
+    <dimen name="img_user_w_h_large">85dp</dimen>
+
+    <dimen name="circle_h">28dp</dimen>
+
+    <!-- service details -->
+    <dimen name="service_img_h">275dp</dimen>
+    <dimen name="map_h">210dp</dimen>
+
+    <dimen name="service_w_h">65dp</dimen>
+    <dimen name="icomoon_font">30dp</dimen>
+
+    <dimen name="logo_w_h">145dp</dimen>
+
+
+    <dimen name="social_w_h_large">65dp</dimen>
+    <dimen name="social_w_h_medium">55dp</dimen>
+    <dimen name="social_w_h_small">30dp</dimen>
+</resources>

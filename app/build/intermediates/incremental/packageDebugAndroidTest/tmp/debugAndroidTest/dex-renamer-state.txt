@@ -1,0 +1,13 @@
+#Mon May 29 22:38:45 EEST 2023
+path.3=7/classes.dex
+path.2=15/classes.dex
+path.1=0/classes.dex
+path.0=classes.dex
+base.3=C\:\\Users\\lenovo\\Desktop\\M-learning-\\M-learning-\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\7\\classes.dex
+base.2=C\:\\Users\\lenovo\\Desktop\\M-learning-\\M-learning-\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\15\\classes.dex
+base.1=C\:\\Users\\lenovo\\Desktop\\M-learning-\\M-learning-\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.0=C\:\\Users\\lenovo\\Desktop\\M-learning-\\M-learning-\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex

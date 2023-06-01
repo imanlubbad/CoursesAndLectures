@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="small_text_size">13sp</dimen>
+    <dimen name="splash_text_size">25sp</dimen>
+    <dimen name="text_size">15sp</dimen>
+    <dimen name="normal_text_size">16sp</dimen>
+    <dimen name="large_text_size">20sp</dimen>
+    <dimen name="extra_large_text_size">25sp</dimen>
+    <dimen name="extra_large_text_size1">35sp</dimen>
+
+    <dimen name="recycle_padding">15dp</dimen>
+    <dimen name="drawable_padding">10dp</dimen>
+    <dimen name="small_drawable_padding">5dp</dimen>
+    <dimen name="button_padding">12dp</dimen>
+    <dimen name="vertical_margin">15dp</dimen>
+    <dimen name="small_horizontal_margin">20dp</dimen>
+    <dimen name="horizontal_margin">35dp</dimen>
+    <dimen name="place_holder_h">150dp</dimen>
+
+
+    <dimen name="textSizeVeryLarge">28sp</dimen>
+    <dimen name="textSizeMLarge">25sp</dimen>
+    <dimen name="textSizeExtraLarge">22sp</dimen>
+    <dimen name="textSizeLarge">20sp</dimen>
+    <dimen name="textSizeTitleLarge">18sp</dimen>
+    <dimen name="textSizeTitle">16sp</dimen>
+    <dimen name="textSizeNormal">14sp</dimen>
+    <dimen name="textSizeMini">12sp</dimen>
+    <dimen name="textSizeExtraMini">11sp</dimen>
+
+    <dimen name="textSizeExtraMini_dp">11dp</dimen>
+    <dimen name="textSizeExtra">8dp</dimen>
+
+    <dimen name="iconSmallHeight">30dp</dimen>
+    <dimen name="iconMiniHeight">18dp</dimen>
+    <dimen name="icomoon_font">28dp</dimen>
+
+    <dimen name="circle_h">25dp</dimen>
+
+
+    <dimen name="smallMargin">5dp</dimen>
+    <dimen name="marginBtnView">10dp</dimen>
+    <dimen name="icon_active">12dp</dimen>
+    <dimen name="margin20">20dp</dimen>
+    <dimen name="normalMargin">16dp</dimen>
+    <dimen name="padding">12dp</dimen>
+    <dimen name="paddingText">10dp</dimen>
+    <dimen name="paddingEditText">12dp</dimen>
+    <dimen name="halfMargin">8dp</dimen>
+    <dimen name="extraMargin">22dp</dimen>
+    <dimen name="extraExtraMargin">35dp</dimen>
+    <dimen name="hugeMargin">65dp</dimen>
+
+    <dimen name="btnCorner">20dp</dimen>
+    <dimen name="btn_h">43dp</dimen>
+    <dimen name="btn_h_small">35dp</dimen>
+    <dimen name="btn_h_extra_small">25dp</dimen>
+    <dimen name="editTextCorner">16dp</dimen>
+
+
+    <!-- home screen -->
+    <dimen name="profile_img_w_h">120dp</dimen>
+    <dimen name="profile_img_margin">60dp</dimen>
+    <dimen name="bg_header_height">180dp</dimen>
+    <dimen name="bg_header_height_profile">130dp</dimen>
+    <dimen name="marker_w_h">50dp</dimen>
+    <dimen name="img_user_w_h">60dp</dimen>
+    <dimen name="img_user_w_h_small">35dp</dimen>
+    <dimen name="img_user_w_h_small1">30dp</dimen>
+    <dimen name="img_user_w_h_large">80dp</dimen>
+    <dimen name="service_w_h">60dp</dimen>
+
+    <!--sign up-->
+    <dimen name="flag_w">28dp</dimen>
+    <dimen name="flag_h">14dp</dimen>
+    <dimen name="logo_w_h">145dp</dimen>
+
+    <!-- service details -->
+    <dimen name="service_img_h">270dp</dimen>
+    <dimen name="map_h">200dp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="nav_header_vertical_spacing">8dp</dimen>
+    <dimen name="nav_header_height">176dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+
+    <dimen name="social_w_h_large">60dp</dimen>
+    <dimen name="social_w_h_medium">50dp</dimen>
+    <dimen name="social_w_h_small">25dp</dimen>
+
+
+
+</resources>

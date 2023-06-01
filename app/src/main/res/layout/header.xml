@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/header"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    android:paddingStart="15dp"
+    android:paddingTop="45dp"
+    android:paddingEnd="15dp"
+    android:paddingBottom="45dp">
+
+    <RelativeLayout
+        android:id="@+id/rlImage"
+        android:layout_width="120dp"
+        android:layout_height="120dp">
+
+        <ImageView
+            android:id="@+id/ivAvatar"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:contentDescription="@string/app_name"
+            android:background="@drawable/circle_opacity"
+            app:srcCompat="@drawable/ic_baseline_person_24"
+            tools:ignore="VectorDrawableCompat"
+            app:tint="@color/white" />
+
+        <com.google.android.material.progressindicator.CircularProgressIndicator
+            android:layout_width="@dimen/fab_margin"
+            android:layout_height="@dimen/fab_margin"
+            app:trackColor="@color/colorAccent"
+            app:indicatorColor="@color/colorAccent"
+            android:layout_centerInParent="true"
+            android:id="@+id/progressAvatar" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/tv_name"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/drawable_padding"
+        android:padding="0dp"
+        tools:text="Maya"
+        android:textColor="@color/white"
+        android:textSize="@dimen/large_text_size" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        style="@style/TextViewStyle"
+        android:layout_width="wrap_content"
+        tools:text="maya@gmail.com"
+        android:textColor="@color/white_opacity1"
+        android:layout_height="wrap_content"
+        android:padding="0dp" />
+
+</LinearLayout>

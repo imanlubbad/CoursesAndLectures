@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.m_learning">
+
+    <application
+        android:name=".utils.MLearningApp"
+        android:allowBackup="false"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:allowBackup"
+        tools:targetApi="q">
+        <activity
+            android:name=".feature.profile.EditProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.lectures.AddAssignmentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.lectures.LecturesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.lecture.LectureDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.lecture.AddLectureActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.courses.AddCourseActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.courses.CourseDetailsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.profile.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.notifications.NotificationsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.messages.view.MessagesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.profile.ForgetPasswordActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.general.SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".feature.lecturerHome.LecturerMainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.studentMain.MainActivity"
+            android:exported="false"
+            android:hardwareAccelerated="true" />
+        <activity
+            android:name=".feature.general.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.general.SignUpActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.general.ImageFullScreenActivity"
+            android:exported="false" />
+        <activity
+            android:name=".feature.Chat.view.ChatActivity"
+            android:exported="false" />
+        <activity android:name="com.tangxiaolv.telegramgallery.GalleryActivity" /> <!-- <activity -->
+        <!-- android:name="io.github.memfis19.annca.internal.ui.camera.Camera1Activity" -->
+        <!-- android:theme="@style/ThemeFullscreen" /> -->
+        <!-- <activity -->
+        <!-- android:name="io.github.memfis19.annca.internal.ui.camera2.Camera2Activity" -->
+        <!-- android:theme="@style/ThemeFullscreen" /> -->
+        <!-- <activity -->
+        <!-- android:name="io.github.memfis19.annca.internal.ui.preview.PreviewActivity" -->
+        <!-- android:theme="@style/ThemeFullscreen" /> -->
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="@string/adMobId" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="@string/provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <service
+            android:name=".fcm.FireBaseMessagingService"
+            android:exported="false"
+            android:permission="">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+    </application>
+    <uses-feature android:name="android.hardware.camera" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+</manifest>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bg_float_dialog"
+    android:layoutDirection="ltr"
+    android:orientation="vertical"
+    android:textDirection="ltr">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/paddingText"
+        android:paddingEnd="@dimen/paddingText">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/marginBtnView"
+            android:layout_marginTop="@dimen/marginBtnView"
+            android:layout_marginEnd="@dimen/marginBtnView"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tv_title"
+                style="@style/TitleTextViewStyle"
+                android:fontFamily="@font/sf_ui_display_bold"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1"
+                android:visibility="visible"
+                tools:text="Title" />
+
+            <TextView
+                android:id="@+id/tv_msg"
+                style="@style/NormalTextViewStyle"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="0dp"
+                android:autoLink="web"
+                android:textIsSelectable="true"
+                android:singleLine="false"
+                tools:text="A new book has been sold.Click View Details for more information." />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/extraMargin"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="2">
+
+            <Button
+                android:id="@+id/btn_ok"
+                style="@style/BlueButtonStyle"
+                android:layout_height="@dimen/btn_h"
+                android:layout_marginStart="@dimen/paddingText"
+                android:layout_marginEnd="@dimen/paddingText"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:textAllCaps="false"
+                tools:text="@string/ok" />
+
+            <Button
+                android:id="@+id/btn_cancel"
+                style="@style/BlueButtonStyle"
+                android:layout_height="@dimen/btn_h"
+                android:layout_marginStart="@dimen/paddingText"
+                android:layout_marginEnd="@dimen/paddingText"
+                android:padding="0dp"
+                android:layout_weight="1"
+                android:background="@drawable/custom_btn_blue_border"
+                android:textAllCaps="false"
+                android:textColor="@color/black"
+                tools:text="@string/Cancel" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

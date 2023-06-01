@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:background="@color/white"
+    android:layoutDirection="ltr"
+    android:textDirection="ltr"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:gravity="center"
+        android:background="@drawable/custom_text_view_press"
+        android:id="@+id/tv_text"
+        android:padding="@dimen/normalMargin"
+        tools:text="Email"
+        style="@style/NormalTextViewStyle"
+        android:textAlignment="center"
+        android:layout_width="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/black" />
+
+</LinearLayout>

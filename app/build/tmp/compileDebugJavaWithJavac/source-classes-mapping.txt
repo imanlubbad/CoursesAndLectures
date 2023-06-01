@@ -1,0 +1,384 @@
+com/m_learning/network/model/Assignments.java
+ com.m_learning.network.model.Assignments
+com/m_learning/feature/lecture/LectureDetailsActivity.java
+ com.m_learning.feature.lecture.LectureDetailsActivity
+ com.m_learning.feature.lecture.LectureDetailsActivity$1
+com/m_learning/databinding/ItemNotificationBinding.java
+ com.m_learning.databinding.ItemNotificationBinding
+com/m_learning/feature/Chat/presenter/ChatPresenter.java
+ com.m_learning.feature.Chat.presenter.ChatPresenter
+com/m_learning/feature/courses/DiscoverCoursesFragment.java
+ com.m_learning.feature.courses.DiscoverCoursesFragment
+ com.m_learning.feature.courses.DiscoverCoursesFragment$1
+com/m_learning/databinding/ActivityMainBinding.java
+ com.m_learning.databinding.ActivityMainBinding
+com/m_learning/network/feature/NotificationsRequests.java
+ com.m_learning.network.feature.NotificationsRequests
+ com.m_learning.network.feature.NotificationsRequests$1
+ com.m_learning.network.feature.NotificationsRequests$2
+com/m_learning/databinding/ActivityChooesUserBinding.java
+ com.m_learning.databinding.ActivityChooesUserBinding
+com/m_learning/databinding/ItemStudentBinding.java
+ com.m_learning.databinding.ItemStudentBinding
+com/m_learning/utils/OnSearchListener.java
+ com.m_learning.utils.OnSearchListener
+com/m_learning/feature/lecture/LectureFragment.java
+ com.m_learning.feature.lecture.LectureFragment
+ com.m_learning.feature.lecture.LectureFragment$1
+ com.m_learning.feature.lecture.LectureFragment$2
+ com.m_learning.feature.lecture.LectureFragment$3
+com/m_learning/feature/notifications/NotificationsActivity.java
+ com.m_learning.feature.notifications.NotificationsActivity
+ com.m_learning.feature.notifications.NotificationsActivity$1
+com/m_learning/network/model/BaseItem.java
+ com.m_learning.network.model.BaseItem
+com/m_learning/databinding/ItemBaseRowBinding.java
+ com.m_learning.databinding.ItemBaseRowBinding
+com/m_learning/databinding/ActivityChangePasswordBinding.java
+ com.m_learning.databinding.ActivityChangePasswordBinding
+com/m_learning/databinding/ItemChatMineImgBinding.java
+ com.m_learning.databinding.ItemChatMineImgBinding
+com/m_learning/utils/ConstantApp.java
+ com.m_learning.utils.ConstantApp
+com/m_learning/BuildConfig.java
+ com.m_learning.BuildConfig
+com/m_learning/network/model/UserInfo.java
+ com.m_learning.network.model.UserInfo
+com/m_learning/feature/lecture/LecturesAdapter.java
+ com.m_learning.feature.lecture.LecturesAdapter
+ com.m_learning.feature.lecture.LecturesAdapter$1
+ com.m_learning.feature.lecture.LecturesAdapter$LoadMoreViewHolder
+ com.m_learning.feature.lecture.LecturesAdapter$MyViewHolder
+ com.m_learning.feature.lecture.LecturesAdapter$OnItemClickListener
+com/m_learning/databinding/ActivityCourseDetailsBinding.java
+ com.m_learning.databinding.ActivityCourseDetailsBinding
+com/m_learning/network/utils/FirebaseReferance.java
+ com.m_learning.network.utils.FirebaseReferance
+com/m_learning/feature/general/ImageFullScreenActivity.java
+ com.m_learning.feature.general.ImageFullScreenActivity
+com/m_learning/databinding/ActivityNotificationsBinding.java
+ com.m_learning.databinding.ActivityNotificationsBinding
+com/m_learning/utils/DialogUtils.java
+ com.m_learning.utils.DialogUtils
+ com.m_learning.utils.DialogUtils$1
+ com.m_learning.utils.DialogUtils$2
+ com.m_learning.utils.DialogUtils$onClickListener
+ com.m_learning.utils.DialogUtils$onClickListenerWithText
+com/m_learning/network/utils/StringRequestListener.java
+ com.m_learning.network.utils.StringRequestListener
+com/m_learning/databinding/FragmentGalleryBinding.java
+ com.m_learning.databinding.FragmentGalleryBinding
+com/m_learning/feature/lectures/LecturesActivity.java
+ com.m_learning.feature.lectures.LecturesActivity
+com/m_learning/databinding/DialogLoadingLayoutBinding.java
+ com.m_learning.databinding.DialogLoadingLayoutBinding
+com/m_learning/utils/CustomFloatDialog.java
+ com.m_learning.utils.CustomFloatDialog
+ com.m_learning.utils.CustomFloatDialog$onClickListener
+com/m_learning/network/feature/ChatFirebase.java
+ com.m_learning.network.feature.ChatFirebase
+ com.m_learning.network.feature.ChatFirebase$1
+ com.m_learning.network.feature.ChatFirebase$2
+ com.m_learning.network.feature.ChatFirebase$3
+ com.m_learning.network.feature.ChatFirebase$4
+ com.m_learning.network.feature.ChatFirebase$5
+ com.m_learning.network.feature.ChatFirebase$6
+com/m_learning/databinding/ItemImageBinding.java
+ com.m_learning.databinding.ItemImageBinding
+com/m_learning/feature/Chat/model/UserData.java
+ com.m_learning.feature.Chat.model.UserData
+com/m_learning/databinding/FragmentDiscoverCoursesBinding.java
+ com.m_learning.databinding.FragmentDiscoverCoursesBinding
+com/m_learning/network/utils/Pagination.java
+ com.m_learning.network.utils.Pagination
+com/m_learning/network/model/Notifications.java
+ com.m_learning.network.model.Notifications
+com/m_learning/feature/notifications/NotificationsAdapter.java
+ com.m_learning.feature.notifications.NotificationsAdapter
+ com.m_learning.feature.notifications.NotificationsAdapter$LoadMoreViewHolder
+ com.m_learning.feature.notifications.NotificationsAdapter$MyViewHolder
+ com.m_learning.feature.notifications.NotificationsAdapter$OnItemClickListener
+com/m_learning/feature/general/SplashActivity.java
+ com.m_learning.feature.general.SplashActivity
+com/m_learning/feature/messages/adapter/MessagesAdapter.java
+ com.m_learning.feature.messages.adapter.MessagesAdapter
+ com.m_learning.feature.messages.adapter.MessagesAdapter$1
+ com.m_learning.feature.messages.adapter.MessagesAdapter$2
+ com.m_learning.feature.messages.adapter.MessagesAdapter$3
+ com.m_learning.feature.messages.adapter.MessagesAdapter$4
+ com.m_learning.feature.messages.adapter.MessagesAdapter$OnItemClickListener
+ com.m_learning.feature.messages.adapter.MessagesAdapter$viewHolder
+com/m_learning/databinding/ActivityMessagesBinding.java
+ com.m_learning.databinding.ActivityMessagesBinding
+com/m_learning/network/feature/CoursesAndLectures.java
+ com.m_learning.network.feature.CoursesAndLectures
+ com.m_learning.network.feature.CoursesAndLectures$1
+ com.m_learning.network.feature.CoursesAndLectures$10
+ com.m_learning.network.feature.CoursesAndLectures$11
+ com.m_learning.network.feature.CoursesAndLectures$11$1
+ com.m_learning.network.feature.CoursesAndLectures$12
+ com.m_learning.network.feature.CoursesAndLectures$13
+ com.m_learning.network.feature.CoursesAndLectures$14
+ com.m_learning.network.feature.CoursesAndLectures$15
+ com.m_learning.network.feature.CoursesAndLectures$16
+ com.m_learning.network.feature.CoursesAndLectures$17
+ com.m_learning.network.feature.CoursesAndLectures$18
+ com.m_learning.network.feature.CoursesAndLectures$19
+ com.m_learning.network.feature.CoursesAndLectures$2
+ com.m_learning.network.feature.CoursesAndLectures$20
+ com.m_learning.network.feature.CoursesAndLectures$21
+ com.m_learning.network.feature.CoursesAndLectures$22
+ com.m_learning.network.feature.CoursesAndLectures$23
+ com.m_learning.network.feature.CoursesAndLectures$3
+ com.m_learning.network.feature.CoursesAndLectures$4
+ com.m_learning.network.feature.CoursesAndLectures$5
+ com.m_learning.network.feature.CoursesAndLectures$6
+ com.m_learning.network.feature.CoursesAndLectures$7
+ com.m_learning.network.feature.CoursesAndLectures$8
+ com.m_learning.network.feature.CoursesAndLectures$9
+ com.m_learning.network.feature.CoursesAndLectures$9$1
+com/m_learning/utils/LoadingDialog.java
+ com.m_learning.utils.LoadingDialog
+com/m_learning/feature/general/LoginActivity.java
+ com.m_learning.feature.general.LoginActivity
+ com.m_learning.feature.general.LoginActivity$1
+com/m_learning/feature/assignment/AssignmentsAdapter.java
+ com.m_learning.feature.assignment.AssignmentsAdapter
+ com.m_learning.feature.assignment.AssignmentsAdapter$LoadMoreViewHolder
+ com.m_learning.feature.assignment.AssignmentsAdapter$MyViewHolder
+ com.m_learning.feature.assignment.AssignmentsAdapter$OnItemClickListener
+com/m_learning/databinding/FragmentLectureBinding.java
+ com.m_learning.databinding.FragmentLectureBinding
+com/m_learning/feature/profile/ForgetPasswordActivity.java
+ com.m_learning.feature.profile.ForgetPasswordActivity
+ com.m_learning.feature.profile.ForgetPasswordActivity$1
+com/m_learning/databinding/ItemAssignmentsBinding.java
+ com.m_learning.databinding.ItemAssignmentsBinding
+com/m_learning/databinding/ActivityForgetPasswordBinding.java
+ com.m_learning.databinding.ActivityForgetPasswordBinding
+com/m_learning/databinding/ItemListBinding.java
+ com.m_learning.databinding.ItemListBinding
+com/m_learning/databinding/ActivityChatBinding.java
+ com.m_learning.databinding.ActivityChatBinding
+com/m_learning/network/model/Course.java
+ com.m_learning.network.model.Course
+com/m_learning/feature/lecturerHome/LecturerMainActivity.java
+ com.m_learning.feature.lecturerHome.LecturerMainActivity
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$1
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$2
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$3
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$4
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$5
+ com.m_learning.feature.lecturerHome.LecturerMainActivity$6
+com/m_learning/feature/general/SignUpActivity.java
+ com.m_learning.feature.general.SignUpActivity
+ com.m_learning.feature.general.SignUpActivity$1
+ com.m_learning.feature.general.SignUpActivity$2
+com/m_learning/feature/courseStudents/StudentsFragment.java
+ com.m_learning.feature.courseStudents.StudentsFragment
+ com.m_learning.feature.courseStudents.StudentsFragment$1
+com/m_learning/feature/lecture/AddLectureActivity.java
+ com.m_learning.feature.lecture.AddLectureActivity
+ com.m_learning.feature.lecture.AddLectureActivity$1
+ com.m_learning.feature.lecture.AddLectureActivity$2
+ com.m_learning.feature.lecture.AddLectureActivity$3
+com/m_learning/utils/ImageCompress.java
+ com.m_learning.utils.ImageCompress
+ com.m_learning.utils.ImageCompress$ImageListCompressionAsyncTask
+ com.m_learning.utils.ImageCompress$onFinishedCompressListListener
+com/m_learning/databinding/ItemCourseBinding.java
+ com.m_learning.databinding.ItemCourseBinding
+com/m_learning/network/utils/Status.java
+ com.m_learning.network.utils.Status
+com/m_learning/databinding/FragmentItemListDialogBinding.java
+ com.m_learning.databinding.FragmentItemListDialogBinding
+com/m_learning/feature/messages/view/MessagesActivity.java
+ com.m_learning.feature.messages.view.MessagesActivity
+ com.m_learning.feature.messages.view.MessagesActivity$1
+ com.m_learning.feature.messages.view.MessagesActivity$2
+com/m_learning/databinding/ActivityAllCourseBinding.java
+ com.m_learning.databinding.ActivityAllCourseBinding
+com/m_learning/fcm/FcmNotificationBuilder.java
+ com.m_learning.fcm.FcmNotificationBuilder
+ com.m_learning.fcm.FcmNotificationBuilder$1
+com/m_learning/databinding/ActivityLecturerMainBinding.java
+ com.m_learning.databinding.ActivityLecturerMainBinding
+com/m_learning/feature/lectures/AddAssignmentActivity.java
+ com.m_learning.feature.lectures.AddAssignmentActivity
+ com.m_learning.feature.lectures.AddAssignmentActivity$1
+ com.m_learning.feature.lectures.AddAssignmentActivity$2
+com/m_learning/databinding/ItemChatOtherImgBinding.java
+ com.m_learning.databinding.ItemChatOtherImgBinding
+com/m_learning/utils/ToolUtils.java
+ com.m_learning.utils.ToolUtils
+ com.m_learning.utils.ToolUtils$1
+ com.m_learning.utils.ToolUtils$2
+ com.m_learning.utils.ToolUtils$3
+ com.m_learning.utils.ToolUtils$4
+ com.m_learning.utils.ToolUtils$onGenderSelected
+ com.m_learning.utils.ToolUtils$onRefreshListener
+com/m_learning/feature/courses/CourseAdapter.java
+ com.m_learning.feature.courses.CourseAdapter
+ com.m_learning.feature.courses.CourseAdapter$LoadMoreViewHolder
+ com.m_learning.feature.courses.CourseAdapter$MyViewHolder
+ com.m_learning.feature.courses.CourseAdapter$OnItemClickListener
+com/m_learning/databinding/ActivityProfileBinding.java
+ com.m_learning.databinding.ActivityProfileBinding
+com/m_learning/network/utils/RequestListener.java
+ com.m_learning.network.utils.RequestListener
+com/m_learning/feature/studentMain/MainActivity.java
+ com.m_learning.feature.studentMain.MainActivity
+ com.m_learning.feature.studentMain.MainActivity$1
+ com.m_learning.feature.studentMain.MainActivity$2
+ com.m_learning.feature.studentMain.MainActivity$3
+com/m_learning/databinding/FragmentCustomFloatDialogBinding.java
+ com.m_learning.databinding.FragmentCustomFloatDialogBinding
+com/m_learning/feature/courses/CourseOverviewFragment.java
+ com.m_learning.feature.courses.CourseOverviewFragment
+ com.m_learning.feature.courses.CourseOverviewFragment$1
+com/m_learning/feature/Chat/view/ChatContract.java
+ com.m_learning.feature.Chat.view.ChatContract
+ com.m_learning.feature.Chat.view.ChatContract$Interactor
+ com.m_learning.feature.Chat.view.ChatContract$OnGetMessagesListener
+ com.m_learning.feature.Chat.view.ChatContract$OnLoadMoreListener
+ com.m_learning.feature.Chat.view.ChatContract$OnSendMessageListener
+ com.m_learning.feature.Chat.view.ChatContract$Presenter
+ com.m_learning.feature.Chat.view.ChatContract$View
+com/m_learning/databinding/MessageListRowBinding.java
+ com.m_learning.databinding.MessageListRowBinding
+com/m_learning/databinding/ActivityEditProfileBinding.java
+ com.m_learning.databinding.ActivityEditProfileBinding
+com/m_learning/databinding/ActivityAddLectureBinding.java
+ com.m_learning.databinding.ActivityAddLectureBinding
+com/m_learning/network/model/CategoryItem.java
+ com.m_learning.network.model.CategoryItem
+com/m_learning/feature/baseView/BaseFragment.java
+ com.m_learning.feature.baseView.BaseFragment
+com/m_learning/databinding/ItemLectureBinding.java
+ com.m_learning.databinding.ItemLectureBinding
+com/m_learning/utils/MediaData.java
+ com.m_learning.utils.MediaData
+com/m_learning/utils/AppSharedData.java
+ com.m_learning.utils.AppSharedData
+com/m_learning/feature/profile/EditProfileActivity.java
+ com.m_learning.feature.profile.EditProfileActivity
+ com.m_learning.feature.profile.EditProfileActivity$1
+ com.m_learning.feature.profile.EditProfileActivity$2
+com/m_learning/feature/baseView/BaseActivity.java
+ com.m_learning.feature.baseView.BaseActivity
+com/m_learning/databinding/ItemDialogBinding.java
+ com.m_learning.databinding.ItemDialogBinding
+com/m_learning/databinding/BannerBinding.java
+ com.m_learning.databinding.BannerBinding
+com/m_learning/databinding/DialogItemsBinding.java
+ com.m_learning.databinding.DialogItemsBinding
+com/m_learning/databinding/HeaderBinding.java
+ com.m_learning.databinding.HeaderBinding
+com/m_learning/feature/courses/AddCourseActivity.java
+ com.m_learning.feature.courses.AddCourseActivity
+ com.m_learning.feature.courses.AddCourseActivity$1
+ com.m_learning.feature.courses.AddCourseActivity$2
+ com.m_learning.feature.courses.AddCourseActivity$3
+com/m_learning/feature/courses/MyCoursesFragment.java
+ com.m_learning.feature.courses.MyCoursesFragment
+ com.m_learning.feature.courses.MyCoursesFragment$1
+com/m_learning/feature/Chat/model/Chat.java
+ com.m_learning.feature.Chat.model.Chat
+com/m_learning/databinding/FragmentMyCoursesBinding.java
+ com.m_learning.databinding.FragmentMyCoursesBinding
+com/m_learning/utils/MLearningApp.java
+ com.m_learning.utils.MLearningApp
+com/m_learning/databinding/ItemChatOtherBinding.java
+ com.m_learning.databinding.ItemChatOtherBinding
+com/m_learning/feature/messages/view/MassageView.java
+ com.m_learning.feature.messages.view.MassageView
+com/m_learning/databinding/ActivitySplashBinding.java
+ com.m_learning.databinding.ActivitySplashBinding
+com/m_learning/feature/Chat/view/ChatActivity.java
+ com.m_learning.feature.Chat.view.ChatActivity
+ com.m_learning.feature.Chat.view.ChatActivity$1
+ com.m_learning.feature.Chat.view.ChatActivity$2
+ com.m_learning.feature.Chat.view.ChatActivity$3
+ com.m_learning.feature.Chat.view.ChatActivity$4
+ com.m_learning.feature.Chat.view.ChatActivity$5
+ com.m_learning.feature.Chat.view.ChatActivity$6
+ com.m_learning.feature.Chat.view.ChatActivity$6$1
+ com.m_learning.feature.Chat.view.ChatActivity$7
+com/m_learning/databinding/ActivityImageFullScreenBinding.java
+ com.m_learning.databinding.ActivityImageFullScreenBinding
+com/m_learning/feature/baseView/BaseView.java
+ com.m_learning.feature.baseView.BaseView
+com/m_learning/feature/profile/ProfileActivity.java
+ com.m_learning.feature.profile.ProfileActivity
+ com.m_learning.feature.profile.ProfileActivity$1
+com/m_learning/fcm/FireBaseMessagingService.java
+ com.m_learning.fcm.FireBaseMessagingService
+com/m_learning/databinding/ActivitySignUpBinding.java
+ com.m_learning.databinding.ActivitySignUpBinding
+com/m_learning/feature/courses/CourseDetailsActivity.java
+ com.m_learning.feature.courses.CourseDetailsActivity
+ com.m_learning.feature.courses.CourseDetailsActivity$1
+ com.m_learning.feature.courses.CourseDetailsActivity$2
+ com.m_learning.feature.courses.CourseDetailsActivity$3
+ com.m_learning.feature.courses.CourseDetailsActivity$4
+com/m_learning/network/model/Lecture.java
+ com.m_learning.network.model.Lecture
+com/m_learning/databinding/ActivityAddCourseBinding.java
+ com.m_learning.databinding.ActivityAddCourseBinding
+com/m_learning/databinding/ActivityAddAssignmentBinding.java
+ com.m_learning.databinding.ActivityAddAssignmentBinding
+com/m_learning/databinding/LoadMoreBinding.java
+ com.m_learning.databinding.LoadMoreBinding
+com/m_learning/feature/assignment/AssignmentsFragment.java
+ com.m_learning.feature.assignment.AssignmentsFragment
+ com.m_learning.feature.assignment.AssignmentsFragment$1
+com/m_learning/databinding/FragmentAssignmentsBinding.java
+ com.m_learning.databinding.FragmentAssignmentsBinding
+com/m_learning/databinding/ItemChatMineBinding.java
+ com.m_learning.databinding.ItemChatMineBinding
+com/m_learning/databinding/ActivityLoginBinding.java
+ com.m_learning.databinding.ActivityLoginBinding
+com/m_learning/feature/Chat/presenter/ChatInteractor.java
+ com.m_learning.feature.Chat.presenter.ChatInteractor
+ com.m_learning.feature.Chat.presenter.ChatInteractor$1
+ com.m_learning.feature.Chat.presenter.ChatInteractor$2
+ com.m_learning.feature.Chat.presenter.ChatInteractor$3
+com/m_learning/feature/Chat/adapter/ChatRecyclerAdapter.java
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$1
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$2
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$Loadmore
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$MyChatImgViewHolder
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$MyChatViewHolder
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$OtherChatImgViewHolder
+ com.m_learning.feature.Chat.adapter.ChatRecyclerAdapter$OtherChatViewHolder
+com/m_learning/utils/AppShareMethods.java
+ com.m_learning.utils.AppShareMethods
+com/m_learning/utils/ItemSelectImageDialogFragment.java
+ com.m_learning.utils.ItemSelectImageDialogFragment
+ com.m_learning.utils.ItemSelectImageDialogFragment$Listener
+com/m_learning/feature/courseStudents/StudentsAdapter.java
+ com.m_learning.feature.courseStudents.StudentsAdapter
+ com.m_learning.feature.courseStudents.StudentsAdapter$LoadMoreViewHolder
+ com.m_learning.feature.courseStudents.StudentsAdapter$MyViewHolder
+ com.m_learning.feature.courseStudents.StudentsAdapter$OnItemClickListener
+com/m_learning/databinding/FragmentStudentsBinding.java
+ com.m_learning.databinding.FragmentStudentsBinding
+com/m_learning/databinding/ActivityLectureDetailsBinding.java
+ com.m_learning.databinding.ActivityLectureDetailsBinding
+com/m_learning/databinding/FragmentCourseOverviewBinding.java
+ com.m_learning.databinding.FragmentCourseOverviewBinding
+com/m_learning/databinding/ActivityLecturesBinding.java
+ com.m_learning.databinding.ActivityLecturesBinding
+com/m_learning/network/model/Notification.java
+ com.m_learning.network.model.Notification
+com/m_learning/network/feature/User.java
+ com.m_learning.network.feature.User
+ com.m_learning.network.feature.User$1
+ com.m_learning.network.feature.User$2
+ com.m_learning.network.feature.User$3
+ com.m_learning.network.feature.User$4
+ com.m_learning.network.feature.User$5
+ com.m_learning.network.feature.User$5$1
+com/m_learning/network/utils/CustomRequestListener.java
+ com.m_learning.network.utils.CustomRequestListener

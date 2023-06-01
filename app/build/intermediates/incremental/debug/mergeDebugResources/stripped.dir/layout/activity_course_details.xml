@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:fitsSystemWindows="true"
+    android:id="@+id/root"
+    android:orientation="vertical">
+
+    <ScrollView
+        android:fillViewport="true"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="250dp">
+
+                <ImageView
+                    android:id="@+id/img_product"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/cloud"
+                    tools:ignore="UseAppTint" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_alignParentTop="true"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="24dp">
+
+                    <ImageButton
+                        android:id="@+id/ibtn_back"
+                        android:layout_width="?actionBarSize"
+                        android:layout_height="?actionBarSize"
+                        android:layout_alignParentStart="true"
+                        android:background="@null"
+                        android:src="@drawable/ic_baseline_arrow_back_24"
+                        app:tint="@color/colorPrimary" />
+
+                    <ImageButton
+                        android:id="@+id/ibtn_more"
+                        android:layout_width="?actionBarSize"
+                        android:layout_height="?actionBarSize"
+                        android:layout_alignParentEnd="true"
+                        android:background="@null"
+                        android:visibility="gone"
+                        android:src="@drawable/ic_baseline_more_vert_24" />
+
+                </RelativeLayout>
+
+                <com.google.android.material.progressindicator.CircularProgressIndicator
+                    android:layout_width="@dimen/circle_h"
+                    android:layout_height="@dimen/circle_h"
+                    android:id="@+id/progress_circular"
+                    app:trackColor="@color/colorAccent"
+                    app:indicatorColor="@color/colorAccent"
+                    android:layout_centerInParent="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="@dimen/small_horizontal_margin"
+                android:layout_marginStart="@dimen/small_horizontal_margin">
+
+
+                <TextView
+                    android:id="@+id/tv_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="5dp"
+                    android:textColor="@color/colorAccent"
+                    android:textSize="@dimen/textSizeLarge"
+                    android:textStyle="bold"
+                    tools:text="Cloud Computing and its Applications" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:id="@+id/tv_courseCode"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/text_size"
+                        android:textStyle="bold"
+                        tools:text="df432" />
+
+                    <TextView
+                        android:id="@+id/tv_deadline"
+                        android:layout_width="wrap_content"
+                        android:gravity="center_vertical|end"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:textColor="@color/dark_gray"
+                        android:textSize="@dimen/small_text_size"
+                        tools:text="@string/deadline_format" />
+
+                </LinearLayout>
+
+
+                <TextView
+                    android:id="@+id/tv_description"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    tools:text="It is an intersection of cloud computing and mobile applications. The course aims to introduce the cloud computing with orientation to cloud application and its particularities specially mobile applications. It covers areas and topics related to cloud infrastructure, platforms (mobile ones), and software as a service (cloud native mobile applications). Nature of these applications and their deployment considerations are also covered in the course."
+                    android:textColor="@color/purple_500" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/padding"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:id="@+id/ll_lecturer"
+                        android:gravity="center_vertical"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/img_user_w_h_small"
+                            android:layout_marginEnd="@dimen/padding"
+                            android:layout_height="@dimen/img_user_w_h_small"
+                            android:src="@drawable/img_user" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/reviews"
+                            android:maxLines="2"
+                            android:id="@+id/tv_lecturer_name"
+                            android:textSize="@dimen/text_size"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:id="@+id/ll_views"
+                        android:layout_marginEnd="@dimen/small_drawable_padding"
+                        android:layout_marginStart="@dimen/small_drawable_padding"
+                        android:gravity="center_vertical"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/flag_w"
+                            android:layout_height="@dimen/flag_w"
+                            android:layout_marginEnd="@dimen/drawable_padding"
+                            android:src="@drawable/ic_baseline_remove_red_eye_24"
+                            app:tint="@color/green" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="120"
+                            android:id="@+id/tv_view_no"
+                            android:textSize="@dimen/text_size"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:id="@+id/ll_student_no"
+                        android:layout_marginEnd="@dimen/drawable_padding"
+                        android:layout_marginStart="@dimen/drawable_padding"
+                        android:gravity="center_vertical"
+                        android:layout_height="wrap_content">
+
+
+                        <ImageView
+                            android:layout_width="@dimen/flag_w"
+                            android:layout_height="@dimen/flag_w"
+                            app:tint="@color/orange"
+                            android:layout_marginEnd="@dimen/padding"
+                            android:src="@drawable/ic_username" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="50"
+                            android:id="@+id/tv_student_no"
+                            android:textSize="@dimen/text_size"
+                            android:textColor="@color/black" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/ll_course_document"
+                    android:visibility="visible"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/padding"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="0.6dp"
+                        android:background="@color/grey" />
+
+                    <TextView
+                        android:id="@+id/tvCourse_doc"
+                        style="@style/TextViewStyle"
+                        android:padding="5dp"
+                        android:layout_marginTop="@dimen/padding"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/course_documents"
+                        android:textColor="@color/black"
+                        android:textStyle="bold" />
+
+                    <HorizontalScrollView
+                        android:id="@+id/hScrollView"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/padding"
+                        android:layout_marginEnd="@dimen/padding"
+                        android:layout_marginBottom="@dimen/horizontal_margin"
+                        android:scrollbarSize="0dp"
+                        android:scrollbars="none"></HorizontalScrollView>
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/padding"
+                    android:layout_height="0.6dp"
+                    android:background="@color/grey" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:id="@+id/ll_add_assignment"
+                    android:visibility="gone"
+                    android:layout_marginTop="@dimen/padding"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:layout_width="@dimen/img_user_w_h_small"
+                        android:layout_height="@dimen/img_user_w_h_small"
+                        android:src="@drawable/ic_baseline_add_24"
+                        android:padding="@dimen/small_drawable_padding"
+                        android:background="@drawable/circle_green" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:layout_marginStart="@dimen/small_drawable_padding"
+                        android:textStyle="bold"
+                        android:layout_height="wrap_content"
+                        android:text="@string/add_assignments"
+                        android:textColor="@color/colorPrimary" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="@dimen/padding"
+                    android:visibility="visible"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:id="@+id/ll_my_assignment">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:padding="5dp"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/padding"
+                        android:layout_height="wrap_content"
+                        android:text="@string/my_assignment"
+                        android:textColor="@color/black" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:id="@+id/frame"
+                        android:layout_marginBottom="@dimen/margin20"
+                        android:visibility="visible"
+                        android:orientation="vertical"
+                        android:background="@null">
+
+                        <ImageView
+                            android:id="@+id/img"
+                            android:layout_width="@dimen/service_w_h"
+                            android:layout_height="@dimen/service_w_h"
+                            android:layout_gravity="center"
+                            android:scaleType="centerCrop"
+                            android:padding="@dimen/small_drawable_padding"
+                            android:src="@drawable/pdf" />
+
+                        <TextView
+                            android:id="@+id/tvFileName"
+                            android:text="FileName.pdf"
+                            android:layout_width="match_parent"
+                            android:gravity="center"
+                            android:layout_height="wrap_content"
+                            android:padding="3dp"
+                            android:textStyle="bold"
+                            android:textSize="@dimen/textSizeTitle"
+                            android:textColor="@color/black" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_register_view"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorPrimary"
+        android:text="@string/register_for_the_course"
+        style="@style/ButtonStyle"
+        android:visibility="gone"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:textStyle="normal" />
+
+</LinearLayout>
